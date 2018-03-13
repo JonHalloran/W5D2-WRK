@@ -1,0 +1,39 @@
+/* PHASE 2: Notifications */
+
+.badge {
+  border-radius: 50%;
+  background-color: black;
+  font-size:
+  color: white;
+  padding: 5px 10px;
+  position: relative;
+}
+
+#hidden-list {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: black;
+
+}
+
+
+.notification-bar:hover span{
+  background-color: red;
+}
+
+.notification-bar:hover #hidden-list {
+  display: block;
+  position: absolute;
+
+}
+
+#hidden-list li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+#hidden-list li {
+  border: solid 1px #ccc;
+  padding: 5px;
+}

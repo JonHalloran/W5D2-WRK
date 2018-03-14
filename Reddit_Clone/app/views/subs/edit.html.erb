@@ -1,0 +1,12 @@
+<h1>EDIT SUB</h1>
+
+<form class="" action="/subs" method="post">
+  <%= auth_token_input %>
+  <label>Title
+    <input type="text" name="sub[title]" value="<%= @sub.title %>">
+  </label>
+  <label>Description
+    <input type="text" name="sub[description]" value="<%= @sub.description %>">
+  </label>
+  <input type="submit" name="" value="Edit Sub">
+</form>

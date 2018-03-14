@@ -1,0 +1,7 @@
+<h1><%= @post.title %></h1>
+
+<p><%= @post.content %></p>
+
+<a target="_blank" href="http://www.<%= @post.url %>">www.example.com</a>
+
+<p><%= link_to "Edit Link", edit_post_url(@post) %> </p>
